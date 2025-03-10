@@ -1,56 +1,6 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Ecommerce</title>
+@extends('layouts.main')
 
-    {{-- bootstrap link --}}
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    
-    {{-- font awesome --}}
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+@section('content')
+<h1>homepage</h1>
+@endsection
 
-
-    {{-- stylecss --}}
-    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
-
-  </head>
-  <body>
-
-    {{-- headerpart --}}
-    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
-        <div class="container">
-            <a class="navbar-brand fw-bold text-primary" href="#">Ecommerce</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-    
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <!-- Search Bar Centered -->
-                <form class="d-flex mx-auto w-50">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-primary" type="submit">Search</button>
-                </form>
-    
-                <!-- Right-side items -->
-                <div class="d-flex align-items-center gap-3 ms-auto">
-                    <a href="#" class="text-decoration-none text-dark fw-semibold">Become a Seller</a>
-                    <a href="#" class="btn btn-outline-success btn-sm"><i class="fa-solid fa-cart-shopping  me-2"></i>Cart</a>
-                    <a href="#" class="btn btn-primary btn-sm"><i class="fa-solid fa-user  me-2"></i>Login</a>
-                </div>
-            </div>
-        </div>
-    </nav>
-
-
-
-    {{-- footerpart     --}}
-<footer class="text-center p-3 bg-light">
-    © 2025 Ecommerce. All Rights Reserved. Designed and coded by vim v@i
-</footer>
-
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-  </body>
-</html>
