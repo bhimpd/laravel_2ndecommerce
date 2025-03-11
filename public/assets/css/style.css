@@ -29,6 +29,16 @@
     color: white !important;
 }
 
+
+
+.theme-products img:hover{
+    transform: scaleX(-1);
+    cursor: pointer;
+}
+
+.recently-viewed-section, .products-section{
+     background-color: #8686AC;
+}
 .footer{
     background-color: #272757;
     color:white;

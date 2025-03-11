@@ -33,53 +33,251 @@
 
 
 {{-- product section start here --}}
-<section class="my-5">
+<section class="my-3 products-section py-3">
     <div class="container">
-        <h1 class="text-center">Top Deals</h1>
+        
+        <div class="d-flex">
+            <div class="p-2 flex-grow-1"><h2>Top Deals</h2></div>
+            <div class="p-2"><a href="" class="btn btn-outline-primary btn-sm">View All</a></div>
+        </div>
         <div class="row theme-products">
             <div class="col-lg-3">
-                <div class="card h-100">
-                    <img src="{{ asset('assets/images/products/shoe2.jpg') }}" class="card-img-top" alt="product1">
-                    <div class="card-body">
-                        <h5 class="card-title text-center">Product 1</h5>
-                        <h4 class="card-title text-center">Rs.4900.00</h4>
+                <a href="#" class="text-decoration-none">
+                    <div class="card h-100">
+                        <img src="{{ asset('assets/images/products/shoe8.png') }}" class="card-img-top" alt="product1">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Product 1</h5>
+                            <h4 class="card-title text-center">Rs.4900.00</h4>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
 
             <div class="col-lg-3">
-                <div class="card h-100">
-                    <img src="{{ asset('assets/images/products/shoe3.png') }}" class="card-img-top" alt="product2">
-                    <div class="card-body">
-                        <h5 class="card-title text-center">Product 2</h5>
-                        <h4 class="card-title text-center">Rs.4900.00</h4>
+                <a href="" class="text-decoration-none">             
+                    <div class="card h-100">
+                        <img src="{{ asset('assets/images/products/shoe3.png') }}" class="card-img-top" alt="product2">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Product 2</h5>
+                            <h4 class="card-title text-center">Rs.4900.00</h4>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
 
             <div class="col-lg-3">
-                <div class="card h-100">
-                    <img src="{{ asset('assets/images/products/shoe5.jpg') }}" class="card-img-top" alt="product3">
-                    <div class="card-body">
-                        <h5 class="card-title text-center">Product 3</h5>
-                        <h4 class="card-title text-center">Rs.4900.00</h4>
+                <a href="" class="text-decoration-none">
+                    <div class="card h-100">
+                        <img src="{{ asset('assets/images/products/shoe5.jpg') }}" class="card-img-top" alt="product3">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Product 3</h5>
+                            <h4 class="card-title text-center">Rs.4900.00</h4>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
 
             <div class="col-lg-3">
-                <div class="card h-100">
-                    <img src="{{ asset('assets/images/products/shoe4.png') }}" class="card-img-top" alt="product4">
-                    <div class="card-body">
-                        <h5 class="card-title text-center">Product 4</h5>
-                        <h4 class="card-title text-center">Rs.4900.00</h4>
+                <a href="" class="text-decoration-none">
+                    <div class="card h-100">
+                        <img src="{{ asset('assets/images/products/shoe4.png') }}" class="card-img-top" alt="product4">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Product 4</h5>
+                            <h4 class="card-title text-center">Rs.4900.00</h4>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
         </div>
     </div>
 </section>
-
 {{-- product section ended here --}}
+
+
+{{-- Best of electronice section start here --}}
+<section class="my-3 recently-viewed-section py-3">
+    <div class="container">
+        
+        <div class="d-flex">
+            <div class="p-2 flex-grow-1"><h2>Best of Electronics</h2></div>
+            <div class="p-2"><a href="" class="btn btn-outline-primary btn-sm">View All</a></div>
+        </div>
+        <div class="row theme-products">
+            <div class="col-lg-3">
+                <a href="#" class="text-decoration-none">
+                    <div class="card h-100">
+                        <img src="{{ asset('assets/images/electronics/electronic1.jpg') }}" class="card-img-top" alt="product1">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Electronic 1</h5>
+                            <h4 class="card-title text-center">Rs.4900.00</h4>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-lg-3">
+                <a href="" class="text-decoration-none">             
+                    <div class="card h-100">
+                        <img src="{{ asset('assets/images/electronics/electronic6.png') }}" class="card-img-top" alt="product2">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Electronic 2</h5>
+                            <h4 class="card-title text-center">Rs.4900.00</h4>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-lg-3">
+                <a href="" class="text-decoration-none">
+                    <div class="card h-100">
+                        <img src="{{ asset('assets/images/electronics/electronic3.jpg') }}" class="card-img-top" alt="product3">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Electronic 3</h5>
+                            <h4 class="card-title text-center">Rs.4900.00</h4>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-lg-3">
+                <a href="" class="text-decoration-none">
+                    <div class="card h-100">
+                        <img src="{{ asset('assets/images/electronics/electronic5.jpg') }}" class="card-img-top" alt="product4">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Electronic 4</h5>
+                            <h4 class="card-title text-center">Rs.4900.00</h4>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+{{-- Best of Electronics section ended here --}}
+
+
+{{-- Popular Categories section start here --}}
+<section class="my-3 recently-viewed-section py-3">
+    <div class="container">
+        
+        <div class="d-flex">
+            <div class="p-2 flex-grow-1"><h2>Popular Categories</h2></div>
+            <div class="p-2"><a href="" class="btn btn-outline-primary btn-sm">View All</a></div>
+        </div>
+        <div class="row theme-products">
+            <div class="col-lg-3">
+                <a href="#" class="text-decoration-none">
+                    <div class="card h-100">
+                        <img src="{{ asset('assets/images/electronics/electronic1.jpg') }}" class="card-img-top" alt="product1">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Popular 1</h5>
+                            <h4 class="card-title text-center">Rs.4900.00</h4>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-lg-3">
+                <a href="" class="text-decoration-none">             
+                    <div class="card h-100">
+                        <img src="{{ asset('assets/images/products/shoe3.png') }}" class="card-img-top" alt="product2">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Popular 2</h5>
+                            <h4 class="card-title text-center">Rs.4900.00</h4>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-lg-3">
+                <a href="" class="text-decoration-none">
+                    <div class="card h-100">
+                        <img src="{{ asset('assets/images/electronics/electronic5.jpg') }}" class="card-img-top" alt="product3">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Popular 3</h5>
+                            <h4 class="card-title text-center">Rs.4900.00</h4>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-lg-3">
+                <a href="" class="text-decoration-none">
+                    <div class="card h-100">
+                        <img src="{{ asset('assets/images/products/shoe5.jpg') }}" class="card-img-top" alt="product4">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Popular 4</h5>
+                            <h4 class="card-title text-center">Rs.4900.00</h4>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+{{-- Popular section ended here --}}
+
+
+
+{{-- Recently viewed section start here --}}
+<section class="my-3 recently-viewed-section py-3">
+    <div class="container">
+        
+        <div class="d-flex">
+            <div class="p-2 flex-grow-1"><h2>Recently Viewed</h2></div>
+            <div class="p-2"><a href="" class="btn btn-outline-primary btn-sm">View All</a></div>
+        </div>
+        <div class="row theme-products">
+            <div class="col-lg-3">
+                <a href="#" class="text-decoration-none">
+                    <div class="card h-100">
+                        <img src="{{ asset('assets/images/products/shoe8.png') }}" class="card-img-top" alt="product1">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Product 5</h5>
+                            <h4 class="card-title text-center">Rs.4900.00</h4>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-lg-3">
+                <a href="" class="text-decoration-none">             
+                    <div class="card h-100">
+                        <img src="{{ asset('assets/images/products/shoe3.png') }}" class="card-img-top" alt="product2">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Product 6</h5>
+                            <h4 class="card-title text-center">Rs.4900.00</h4>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-lg-3">
+                <a href="" class="text-decoration-none">
+                    <div class="card h-100">
+                        <img src="{{ asset('assets/images/products/shoe5.jpg') }}" class="card-img-top" alt="product3">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Product 7</h5>
+                            <h4 class="card-title text-center">Rs.4900.00</h4>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-lg-3">
+                <a href="" class="text-decoration-none">
+                    <div class="card h-100">
+                        <img src="{{ asset('assets/images/products/shoe4.png') }}" class="card-img-top" alt="product4">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Product 8</h5>
+                            <h4 class="card-title text-center">Rs.4900.00</h4>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+{{-- Recently viewed section ended here --}}
 @endsection
 
