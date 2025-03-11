@@ -1,5 +1,7 @@
 @extends('layouts.main')
-
+@push('title')
+    <title>Home Page</title>
+@endpush
 @section('content')
 
 {{-- carousel started here --}}
@@ -279,5 +281,6 @@
     </div>
 </section>
 {{-- Recently viewed section ended here --}}
+
 @endsection
 

@@ -3,8 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Home Page</title>
-
+   @stack('title')
     {{-- bootstrap link --}}
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     
@@ -21,7 +20,7 @@
     {{-- headerpart --}}
     <nav class="navbar navbar-expand-lg navbar-light shadow-sm nav-header">
         <div class="container">
-            <a class="navbar-brand fw-bold" href="#">Ecommerce</a>
+            <a class="navbar-brand fw-bold" href="{{url('/')}}">Ecommerce</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -53,7 +52,7 @@
           <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
             <ul class="nav">
               <li class="nav-item">
-                <a class="nav-link active" href="#">Mobile</a>
+                <a class="nav-link active" href="{{url('/category/mobile/1')}}">Mobile</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link active" href="#">Fashion</a>
