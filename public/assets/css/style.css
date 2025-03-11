@@ -1,3 +1,35 @@
-.test{
-    background-color:blue;
+
+
+.nav-header{
+    background-color: #272757;
+}
+
+.nav-header .navbar-brand,
+.nav-header .nav-link,
+.nav-header a {
+    color: white !important;
+}
+
+.nav-header .btn-outline-primary {
+    color: white !important;
+    border-color: white !important;
+}
+
+.nav-header .btn-outline-primary:hover {
+    background-color: white !important;
+    color: #272757 !important;
+}
+
+
+.categories{
+    background-color: #505081;
+}
+
+.categories li a{
+    color: white !important;
+}
+
+.footer{
+    background-color: #272757;
+    color:white;
 }
