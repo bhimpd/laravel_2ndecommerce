@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\CartController;
 use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\SubCategoryController;
 
@@ -16,3 +17,4 @@ Route::get('/', [HomeController::class, 'index']);
 Route::get('/category/{slug}',[CategoryController::class,'detail']);
 Route::get('/category/subcategory/{slug}',[SubCategoryController::class,'detail']);
 Route::get('/category/subcategory/tv/{slug}',[ProductdetailController::class,'detail']);
+Route::get('/cart-listing/{slug}',[CartController::class,'list']);

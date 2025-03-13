@@ -41,7 +41,7 @@
                       </div>
                 </div>
                 <div>
-                    <a href="" class="btn theme-green-btn text-light rounded-pill me-1">Add to Cart</a>
+                    <a href="{{url('cart-listing/product')}}" class="btn theme-green-btn text-light rounded-pill me-1">Add to Cart</a>
                     <a href="" class="btn theme-orange-btn text-light rounded-pill me-1">Buy Now</a>
                 </div>
             </div>
