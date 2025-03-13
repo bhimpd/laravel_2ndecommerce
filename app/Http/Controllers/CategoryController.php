@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class CategoryController extends Controller
 {
-    public function detail($slug, $id){
+    public function detail($slug){
         return view('categories/category');
     }
 }

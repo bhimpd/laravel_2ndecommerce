@@ -52,7 +52,7 @@
           <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
             <ul class="nav">
               <li class="nav-item">
-                <a class="nav-link active" href="{{url('/category/mobile/1')}}">Mobile</a>
+                <a class="nav-link active" href="{{url('/category/mobile')}}">Mobile</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link active" href="#">Fashion</a>
@@ -67,7 +67,7 @@
                 <a class="nav-link active" href="#">Grocery</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="#">Appliances</a>
+                <a class="nav-link active" href="{{url('/category/subcategory/tv')}}">Appliances</a>
               </li>
             </ul>
           </div>

@@ -20,6 +20,20 @@
     color: #272757 !important;
 }
 
+.theme-green-btn{
+    background-color: green;
+}
+.theme-green-btn:hover{
+    background-color: orange;
+}
+
+.theme-orange-btn{
+    background-color: orange;
+}
+.theme-orange-btn:hover{
+    background-color: green;
+}
+
 
 .categories{
     background-color: #505081;
@@ -38,6 +52,11 @@
 .recently-viewed-section, .products-section{
      background-color: #8686AC;
 }
+
+.checked{
+    color: orange;
+}
+
 .footer{
     background-color: #272757;
     color:white;
