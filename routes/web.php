@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\CartController;
 use App\Http\Controllers\CategoryController;
+use App\Http\Controllers\CheckoutController;
 use App\Http\Controllers\SubCategoryController;
 
 use Illuminate\Support\Facades\Route;
@@ -18,3 +19,4 @@ Route::get('/category/{slug}',[CategoryController::class,'detail']);
 Route::get('/category/subcategory/{slug}',[SubCategoryController::class,'detail']);
 Route::get('/category/subcategory/tv/{slug}',[ProductdetailController::class,'detail']);
 Route::get('/cart-listing/{slug}',[CartController::class,'list']);
+Route::get('/checkout/{slug}',[CheckoutController::class,'checkout']);

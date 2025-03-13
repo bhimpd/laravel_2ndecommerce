@@ -128,7 +128,7 @@
                     <div><h4>Total </h4></div>
                     <div class="ms-auto">Rs 900</div>
                 </div><hr>
-                <div class="mt-4"> <a href="" class="btn theme-green-btn text-light rounded-pill me-1 w-100">Proceed To Checkout</a></div>
+                <div class="mt-4"> <a href="{{url('/checkout/product')}}" class="btn theme-green-btn text-light rounded-pill me-1 w-100">Proceed To Checkout</a></div>
             </div>
         </div>
     </div>
