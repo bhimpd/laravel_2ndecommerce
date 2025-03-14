@@ -149,6 +149,12 @@
                         <td>Rs 5000.00</td>
                         <td><button type="button" class="btn-close" aria-label="Close"></button></td>
                       </tr>
+
+                      <tr>
+                        <th colspan="3"><h5>Total</h5></th>
+                        <th><h5>Rs 11500.00</h5></th>
+
+                      </tr> 
                       
                     </tbody>
                 </table>
@@ -158,5 +164,40 @@
     </div>
 </section>
 {{-- Ended Your Order List --}}
+
+
+{{-- Payment Section --}}
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDisabled" id="flexRadioDisabled" checked >
+                    <label class="form-check-label" for="flexRadioDisabled">
+                      <h5>UPI</h5>
+                    </label> 
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDisabled" id="flexRadioCheckedDisabled"  >
+                    <label class="form-check-label" for="flexRadioCheckedDisabled">
+                      <h5>Debit/Credit Card</h5>
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDisabled" id="flexRadioCheckedDisabled">
+                    <label class="form-check-label" for="flexRadioCheckedDisabled">
+                      <h5>Cash On Delivery</h5>
+                    </label>
+                  </div>
+                  <div>
+                    <a href="" class="btn theme-orange-btn text-light rounded-pill my-2">Place Order</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{{-- End Payment Section --}}
+
 
 @endsection
