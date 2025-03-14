@@ -8,6 +8,7 @@ use App\Http\Controllers\SubCategoryController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ProductdetailController;
+use App\Http\Controllers\UserController;
 
 // Route::get('/', function () {
 //     return view('welcome');
@@ -20,3 +21,5 @@ Route::get('/category/subcategory/{slug}',[SubCategoryController::class,'detail'
 Route::get('/category/subcategory/tv/{slug}',[ProductdetailController::class,'detail']);
 Route::get('/cart-listing/{slug}',[CartController::class,'list']);
 Route::get('/checkout/{slug}',[CheckoutController::class,'checkout']);
+
+Route::get('/register',[UserController::class,'register']);
