@@ -23,3 +23,6 @@ Route::get('/cart-listing/{slug}',[CartController::class,'list']);
 Route::get('/checkout/{slug}',[CheckoutController::class,'checkout']);
 
 Route::get('/register',[UserController::class,'register']);
+Route::get('/register1',[UserController::class,'register1']);
+Route::get('/login',[UserController::class,'login']);
+Route::get('/login1',[UserController::class,'login1']);

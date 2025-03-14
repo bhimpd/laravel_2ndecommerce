@@ -1,11 +1,11 @@
 @extends('layouts.main')
 @push('title')
-    <title>User Register</title>
+    <title> Register</title>
 @endpush
 @section('content')
 
 <div class="container-fluid bg-light p-4">
-    <h1 class="text-center"><i class="fa-solid fa-user mx-2"></i>User Register</h1>
+    <h1 class="text-center"><i class="fa-solid fa-user mx-2"></i> Register</h1>
 </div>
 
 
@@ -25,11 +25,16 @@
                             <form action="">
                                 
                                 <div class="mb-3">
-                                    <div class="form-text mb-2">Please enter your Phone Number</div>
-                                    <input type="number" class="form-control form-control-lg" placeholder="+977">
+                                    {{-- <div class="form-text mb-2">Please enter your Phone Number</div> --}}
+                                    <input type="number" class="form-control form-control-lg" placeholder="+9779814412345">
+                                </div>
+
+                                <div class="mb-3">
+                                    <div class="form-text mb-2">Please enter your OTP</div>
+                                    <input type="password" class="form-control form-control-lg" placeholder="******">
                                 </div>
                                 
-                                <a href="{{url('/register1')}}" type="submit" class="btn theme-orange-btn text-light form-control form-control-lg">Continue</a>
+                                <button type="submit" class="btn theme-orange-btn text-light form-control form-control-lg">Sign Up</button>
                                 
                                 <div class="text-center my-4">Have an account? <a href="{{url('/login')}}" class="text-decoration-none">Login</a></div>
                                

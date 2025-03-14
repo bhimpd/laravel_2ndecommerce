@@ -39,7 +39,7 @@
                 <div class="d-flex align-items-center gap-3 ms-auto">
                     <a href="#" class="text-decoration-none fw-semibold">Become a Seller</a>
                     <a href="{{url('cart-listing/product')}}" class="btn btn-outline-success btn-sm"><i class="fa-solid fa-cart-shopping  me-2"></i>Cart</a>
-                    <a href="#" class="btn btn-outline-primary btn-sm"><i class="fa-solid fa-user  me-2"></i>Login</a>
+                    <a href="{{url('/login')}}" class="btn btn-outline-primary btn-sm"><i class="fa-solid fa-user  me-2"></i>Login</a>
                 </div>
             </div>
         </div>
