@@ -33,6 +33,7 @@ Route::get('/user',[UserController::class,'index']);
 
 Route::get('/order-history',[UserController::class,'history']);
 Route::get('/detail',[UserController::class,'detail']);
+Route::get('/settings',[UserController::class,'settings']);
 
 
 
