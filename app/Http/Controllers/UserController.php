@@ -26,4 +26,8 @@ class UserController extends Controller
     public function index(){
         return view('user.index');
     }
+
+    public function history(){
+        return view('user.order-history');
+    }
 }
