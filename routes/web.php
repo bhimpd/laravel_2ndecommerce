@@ -26,3 +26,9 @@ Route::get('/register',[UserController::class,'register']);
 Route::get('/register1',[UserController::class,'register1']);
 Route::get('/login',[UserController::class,'login']);
 Route::get('/login1',[UserController::class,'login1']);
+
+
+// User dashboard routes start here
+Route::get('/user',[UserController::class,'index']);
+
+
