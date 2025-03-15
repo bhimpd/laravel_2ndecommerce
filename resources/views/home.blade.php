@@ -40,7 +40,7 @@
         
         <div class="d-flex">
             <div class="p-2 flex-grow-1"><h2>Top Deals</h2></div>
-            <div class="p-2"><a href="" class="btn theme-green-btn text-light btn-sm">View All</a></div>
+            <div class="p-2"><a href="{{url('/category/mobile')}}" class="btn theme-green-btn text-light btn-sm">View All</a></div>
         </div>
         <div class="row theme-products">
             <div class="col-lg-3">
@@ -102,7 +102,7 @@
         
         <div class="d-flex">
             <div class="p-2 flex-grow-1"><h2>Best of Electronics</h2></div>
-            <div class="p-2"><a href="" class="btn theme-green-btn text-light btn-sm">View All</a></div>
+            <div class="p-2"><a href="{{url('/category/mobile')}}" class="btn theme-green-btn text-light btn-sm">View All</a></div>
         </div>
         <div class="row theme-products">
             <div class="col-lg-3">
@@ -164,7 +164,7 @@
         
         <div class="d-flex">
             <div class="p-2 flex-grow-1"><h2>Popular Categories</h2></div>
-            <div class="p-2"><a href="" class="btn theme-green-btn text-light btn-sm">View All</a></div>
+            <div class="p-2"><a href="{{url('/category/mobile')}}" class="btn theme-green-btn text-light btn-sm">View All</a></div>
         </div>
         <div class="row theme-products">
             <div class="col-lg-3">
@@ -227,7 +227,7 @@
         
         <div class="d-flex">
             <div class="p-2 flex-grow-1"><h2>Recently Viewed</h2></div>
-            <div class="p-2"><a href="" class="btn theme-green-btn text-light btn-sm">View All</a></div>
+            <div class="p-2"><a href="{{url('/category/mobile')}}" class="btn theme-green-btn text-light btn-sm">View All</a></div>
         </div>
         <div class="row theme-products">
             <div class="col-lg-3">

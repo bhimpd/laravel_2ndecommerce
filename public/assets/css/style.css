@@ -39,7 +39,7 @@
     background-color: #505081;
 }
 
-.categories li a{
+.categories li .nav-link {
     color: white !important;
 }
 

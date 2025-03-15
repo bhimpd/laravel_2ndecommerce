@@ -51,24 +51,77 @@
         <div class="container-fluid">
           <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
             <ul class="nav">
-              <li class="nav-item">
-                <a class="nav-link active" href="{{url('/category/mobile')}}">Mobile</a>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="{{url('/category/mobile')}}" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Mobile
+                </a>
+                <ul class="dropdown-menu">
+                  <li class="nav-item"><a class="dropdown-item" href="{{url('/category/subcategory/tv')}}">Oppo</a></li>
+                  <li class="nav-item"><a class="dropdown-item" href="#">Vivo</a></li>
+                  <li class="nav-item"><a class="dropdown-item" href="#">Nokia</a></li>
+                  <li class="nav-item"><a class="dropdown-item" href="#">Samsung</a></li>
+                 
+                </ul>
+              </li>  
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Fashion
+                </a>
+                <ul class="dropdown-menu">
+                  <li class="nav-item"><a class="dropdown-item" href="{{url('/category/subcategory/tv')}}">Shoe</a></li>
+                  <li class="nav-item"><a class="dropdown-item" href="#">Bag</a></li>
+                  <li class="nav-item"><a class="dropdown-item" href="#">Clothes</a></li>
+                 
+                </ul>
               </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="#">Fashion</a>
+             
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Electronics
+                </a>
+                <ul class="dropdown-menu">
+                  <li class="nav-item"><a class="dropdown-item" href="{{url('/category/subcategory/tv')}}">Drones</a></li>
+                  <li class="nav-item"><a class="dropdown-item" href="#">Radios</a></li>
+                  <li class="nav-item"><a class="dropdown-item" href="#">Cameras</a></li>
+                 
+                </ul>
               </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="#">Electronics</a>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Furniture
+                </a>
+                <ul class="dropdown-menu">
+                  <li class="nav-item"><a class="dropdown-item" href="{{url('/category/subcategory/tv')}}">Beds</a></li>
+                  <li class="nav-item"><a class="dropdown-item" href="#">Sofas</a></li>
+                  <li class="nav-item"><a class="dropdown-item" href="#">Tables</a></li>
+                 
+                </ul>
               </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="#">Furniture</a>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Grocery
+                </a>
+                <ul class="dropdown-menu">
+                  <li class="nav-item"><a class="dropdown-item" href="{{url('/category/subcategory/tv')}}">Beans</a></li>
+                  <li class="nav-item"><a class="dropdown-item" href="#">Rice</a></li>
+                  <li class="nav-item"><a class="dropdown-item" href="#">Grams</a></li>
+                  <li class="nav-item"><a class="dropdown-item" href="#">Powder</a></li>
+                 
+                </ul>
               </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="#">Grocery</a>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Appliances
+                </a>
+                <ul class="dropdown-menu">
+                  <li class="nav-item"><a class="dropdown-item" href="#">Washing Machines</a></li>
+                  <li class="nav-item"><a class="dropdown-item" href="#">Refrigerator</a></li>
+                  <li class="nav-item"><a class="dropdown-item" href="{{url('/category/subcategory/tv')}}">TV</a></li>
+
+                </ul>
               </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="{{url('/category/subcategory/tv')}}">Appliances</a>
-              </li>
+             
             </ul>
           </div>
         </div>
