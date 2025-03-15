@@ -1,4 +1,6 @@
 @include('user.layouts.header')
+@include('user.layouts.sidebar')
+
 
 
 @yield('content')

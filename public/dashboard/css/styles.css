@@ -11241,3 +11241,17 @@ body {
   font-size: 0.75rem;
   border-radius: 0.375rem !important;
 }
+
+.theme-green-btn{
+    background-color: green;
+}
+.theme-green-btn:hover{
+    background-color: orange;
+}
+
+.theme-orange-btn{
+    background-color: orange;
+}
+.theme-orange-btn:hover{
+    background-color: green;
+}
