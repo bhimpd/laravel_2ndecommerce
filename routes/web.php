@@ -38,6 +38,9 @@ Route::get('/user/settings',[UserController::class,'settings']);
 
 // Vendor dashboard routes start here
 Route::get('/vendor/signup',[VendorController::class,'signup']);
+Route::get('/vendor/login',[VendorController::class,'login']);
+
+
 
 
 

@@ -9,4 +9,8 @@ class VendorController extends Controller
     public function signup(){
         return view('vendor.signup');
     }
+
+    public function login(){
+        return view('vendor.login');
+    }
 }
