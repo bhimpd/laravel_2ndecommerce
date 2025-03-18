@@ -1,11 +1,11 @@
 @extends('vendor.layouts.main')
 @push('title')
-    <title>Vendor Login</title>
+    <title>Forget Password</title>
 @endpush
 @section('content')
 
 
-{{-- user login started --}}
+{{-- user forget started --}}
 <section>
     <div class="container position-absolute start-50 top-50 translate-middle">
         <div class="row">
@@ -28,16 +28,19 @@
                                     </div>
 
                                     <div class="col-lg-12 mb-3">
-                                        <label for="password" class="form-label">Password</label>
+                                        <label for="password" class="form-label">New Password</label>
+                                        <input type="password" class="form-control form-control-lg" placeholder="Password">
+                                    </div>
+
+                                    <div class="col-lg-12 mb-3">
+                                        <label for="password" class="form-label">Confirm Password</label>
                                         <input type="password" class="form-control form-control-lg" placeholder="Password">
                                     </div>
                                 </div>
                                   
-                                <a href="{{url('/vendor/login')}}" type="submit" class="btn btn-primary text-light form-control form-control-lg">Login In</a>
+                                <a href="{{url('/vendor/login')}}" type="submit" class="btn btn-primary text-light form-control form-control-lg">Change Password</a>
                                 
-                                <div class="text-center my-4">Don't Have an account? <a href="{{url('vendor/signup')}}" class="text-decoration-none">Sign Up</a></div>
-
-                                <div class="text-center my-4"> <a href="{{url('vendor/forget')}}" class="text-decoration-none">Forgotten Password ? </a></div>
+                                <div class="text-center my-4">Have an account? <a href="{{url('vendor/login')}}" class="text-decoration-none">Login Up</a></div>
                                
                             </form>
                         </div>

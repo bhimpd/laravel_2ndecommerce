@@ -13,4 +13,8 @@ class VendorController extends Controller
     public function login(){
         return view('vendor.login');
     }
+
+    public function forget(){
+        return view('vendor.forget');
+    }
 }
