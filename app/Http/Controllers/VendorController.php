@@ -17,4 +17,8 @@ class VendorController extends Controller
     public function forget(){
         return view('vendor.forget');
     }
+
+    public function index(){
+        return view('vendor.index');
+    }
 }
