@@ -31,9 +31,9 @@ Route::get('/login1',[UserController::class,'login1']);
 // User dashboard routes start here
 Route::get('/user',[UserController::class,'index']);
 
-Route::get('/order-history',[UserController::class,'history']);
-Route::get('/detail',[UserController::class,'detail']);
-Route::get('/settings',[UserController::class,'settings']);
+Route::get('/user/order-history',[UserController::class,'history']);
+Route::get('/user/detail',[UserController::class,'detail']);
+Route::get('/user/settings',[UserController::class,'settings']);
 
 
 

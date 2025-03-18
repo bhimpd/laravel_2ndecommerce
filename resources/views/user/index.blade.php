@@ -45,57 +45,58 @@
                                 <a href="{{url('order-history')}}" class="btn btn-sm px-2 py-1 text-decoration-none theme-orange-btn">View All</a>
                             </div>
                         </div>
-                        <div>
-                            <table class="table">
-                                <thead>
-                                  <tr>
-                                    <th scope="col">Order ID</th>
-                                    <th scope="col">Date</th>
-                                    <th scope="col">Total</th>
-                                    <th scope="col">Status</th>
-                                  </tr>
-                                </thead>
-                                <tbody>
-                                  <tr>
-                                    <th scope="row">1</th>
-                                    <td>2024-12-12</td>
-                                    <td>Rs 50000.00</td>
-                                    <td>
-                                        <a href=""><span class="badge text-bg-primary ">Processing</span><a href="{{url('/detail')}}" class="text-decoration-none mx-3">View Details</a>
-                                        </a>
-                                    </td>
-                                  </tr>
-
-                                  <tr>
-                                    <th scope="row">2</th>
-                                    <td>2024-12-12</td>
-                                    <td>Rs 50000.00</td>
-                                    <td>
-                                        <a href=""><span class="badge text-bg-info ">On the Way</span><a href="{{url('/detail')}}" class="text-decoration-none mx-3">View Details</a>
-                                        </a>
-                                    </td>
-                                  </tr>
-
-                                  <tr>
-                                    <th scope="row">3</th>
-                                    <td>2024-12-12</td>
-                                    <td>Rs 50000.00</td>
-                                    <td>
-                                        <a href=""><span class="badge text-bg-success ">Delivered</span><a href="{{url('/detail')}}" class="text-decoration-none mx-3">View Details</a>
-                                        </a>
-                                    </td>
-                                  </tr>
-                                  
-                                </tbody>
-                              </table>
-                        </div>
-                    </div>
-
-                                            
+                    </div>                                           
                 </div>
 
             </div>
         </main>
+
+        <div class="card mb-4">
+            <div class="card-body">
+                <table id="datatablesSimple">
+                    <thead>
+                        <tr>
+                          <th scope="col">Order ID</th>
+                          <th scope="col">Date</th>
+                          <th scope="col">Total</th>
+                          <th scope="col">Status</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row">1</th>
+                          <td>2024-12-12</td>
+                          <td>Rs 50000.00</td>
+                          <td>
+                              <a href=""><span class="badge text-bg-primary ">Processing</span><a href="{{url('/detail')}}" class="text-decoration-none mx-3">View Details</a>
+                              </a>
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <th scope="row">2</th>
+                          <td>2024-12-12</td>
+                          <td>Rs 50000.00</td>
+                          <td>
+                              <a href=""><span class="badge text-bg-info ">On the Way</span><a href="{{url('/detail')}}" class="text-decoration-none mx-3">View Details</a>
+                              </a>
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <th scope="row">3</th>
+                          <td>2024-12-12</td>
+                          <td>Rs 50000.00</td>
+                          <td>
+                              <a href=""><span class="badge text-bg-success ">Delivered</span><a href="{{url('/detail')}}" class="text-decoration-none mx-3">View Details</a>
+                              </a>
+                          </td>
+                        </tr>
+                        
+                    </tbody>
+                </table>
+            </div>
+        </div>
         
 
 

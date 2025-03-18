@@ -17,7 +17,7 @@
                            
                         </div>
                         <div>
-                            <table class="table">
+                            <table id="datatablesSimple">
                                 <thead>
                                   <tr>
                                     <th scope="col">Order ID</th>
@@ -30,9 +30,9 @@
                                   <tr>
                                     <th scope="row">1</th>
                                     <td>2024-12-12</td>
-                                    <td>Rs 50000.00(2 Products)</td>
+                                    <td>Rs 50001.00(2 Products)</td>
                                     <td>
-                                        <a href="{{url('/detail')}}"><span class="badge text-bg-primary ">Processing</span><a href="" class="text-decoration-none mx-3">View Details</a>
+                                        <a href="{{url('user/detail')}}"><span class="badge text-bg-primary ">Processing</span><a href="{{url('user/detail')}}" class="text-decoration-none mx-3">View Details</a>
                                         </a>
                                     </td>
                                   </tr>
@@ -42,7 +42,7 @@
                                     <td>2024-12-12</td>
                                     <td>Rs 50000.00(2 Products)</td>
                                     <td>
-                                        <a href=""><span class="badge text-bg-info ">On the Way</span><a href="{{url('/detail')}}" class="text-decoration-none mx-3">View Details</a>
+                                        <a href="{{url('user/detail')}}"><span class="badge text-bg-info ">On the Way</span><a href="{{url('user/detail')}}" class="text-decoration-none mx-3">View Details</a>
                                         </a>
                                     </td>
                                   </tr>
@@ -52,7 +52,7 @@
                                     <td>2024-12-12</td>
                                     <td>Rs 50000.00(2 Products)</td>
                                     <td>
-                                        <a href=""><span class="badge text-bg-success ">Delivered</span><a href="{{url('/detail')}}" class="text-decoration-none mx-3">View Details</a>
+                                        <a href="{{url('user/detail')}}"><span class="badge text-bg-success ">Delivered</span><a href="{{url('user/detail')}}" class="text-decoration-none mx-3">View Details</a>
                                         </a>
                                     </td>
                                   </tr>
@@ -62,7 +62,7 @@
                                     <td>2024-12-12</td>
                                     <td>Rs 50000.00(2 Products)</td>
                                     <td>
-                                        <a href=""><span class="badge text-bg-success ">Delivered</span><a href="{{url('/detail')}}" class="text-decoration-none mx-3">View Details</a>
+                                        <a href=""><span class="badge text-bg-success ">Delivered</span><a href="{{url('user/detail')}}" class="text-decoration-none mx-3">View Details</a>
                                         </a>
                                     </td>
                                   </tr>
@@ -72,7 +72,7 @@
                                     <td>2024-12-12</td>
                                     <td>Rs 50000.00(2 Products)</td>
                                     <td>
-                                        <a href=""><span class="badge text-bg-success ">Delivered</span><a href="{{url('/detail')}}" class="text-decoration-none mx-3">View Details</a>
+                                        <a href=""><span class="badge text-bg-success ">Delivered</span><a href="{{url('user/detail')}}" class="text-decoration-none mx-3">View Details</a>
                                         </a>
                                     </td>
                                   </tr>
@@ -82,7 +82,7 @@
                                     <td>2024-12-12</td>
                                     <td>Rs 50000.00(2 Products)</td>
                                     <td>
-                                        <a href=""><span class="badge text-bg-success ">Delivered</span><a href="{{url('/detail')}}" class="text-decoration-none mx-3">View Details</a>
+                                        <a href=""><span class="badge text-bg-success ">Delivered</span><a href="{{url('user/detail')}}" class="text-decoration-none mx-3">View Details</a>
                                         </a>
                                     </td>
                                   </tr>
@@ -92,7 +92,7 @@
                                     <td>2024-12-12</td>
                                     <td>Rs 50000.00(2 Products)</td>
                                     <td>
-                                        <a href="{{url('/detail')}}"><span class="badge text-bg-primary ">Processing</span><a href="" class="text-decoration-none mx-3">View Details</a>
+                                        <a href="{{url('user/detail')}}"><span class="badge text-bg-primary ">Processing</span><a href="" class="text-decoration-none mx-3">View Details</a>
                                         </a>
                                     </td>
                                   </tr>
@@ -102,7 +102,7 @@
                                     <td>2024-12-12</td>
                                     <td>Rs 50000.00(2 Products)</td>
                                     <td>
-                                        <a href=""><span class="badge text-bg-info ">On the Way</span><a href="{{url('/detail')}}" class="text-decoration-none mx-3">View Details</a>
+                                        <a href=""><span class="badge text-bg-info ">On the Way</span><a href="{{url('user/detail')}}" class="text-decoration-none mx-3">View Details</a>
                                         </a>
                                     </td>
                                   </tr>
@@ -112,7 +112,7 @@
                                     <td>2024-12-12</td>
                                     <td>Rs 50000.00(2 Products)</td>
                                     <td>
-                                        <a href=""><span class="badge text-bg-success ">Delivered</span><a href="{{url('/detail')}}" class="text-decoration-none mx-3">View Details</a>
+                                        <a href=""><span class="badge text-bg-success ">Delivered</span><a href="{{url('user/detail')}}" class="text-decoration-none mx-3">View Details</a>
                                         </a>
                                     </td>
                                   </tr>
@@ -122,7 +122,7 @@
                                     <td>2024-12-12</td>
                                     <td>Rs 50000.00(2 Products)</td>
                                     <td>
-                                        <a href=""><span class="badge text-bg-success ">Delivered</span><a href="{{url('/detail')}}" class="text-decoration-none mx-3">View Details</a>
+                                        <a href=""><span class="badge text-bg-success ">Delivered</span><a href="{{url('user/detail')}}" class="text-decoration-none mx-3">View Details</a>
                                         </a>
                                     </td>
                                   </tr>
@@ -132,7 +132,7 @@
                                     <td>2024-12-12</td>
                                     <td>Rs 50000.00(2 Products)</td>
                                     <td>
-                                        <a href=""><span class="badge text-bg-success ">Delivered</span><a href="{{url('/detail')}}" class="text-decoration-none mx-3">View Details</a>
+                                        <a href=""><span class="badge text-bg-success ">Delivered</span><a href="{{url('user/detail')}}" class="text-decoration-none mx-3">View Details</a>
                                         </a>
                                     </td>
                                   </tr>
@@ -142,33 +142,13 @@
                                     <td>2024-12-12</td>
                                     <td>Rs 50000.00(2 Products)</td>
                                     <td>
-                                        <a href=""><span class="badge text-bg-success ">Delivered</span><a href="{{url('/detail')}}" class="text-decoration-none mx-3">View Details</a>
+                                        <a href=""><span class="badge text-bg-success ">Delivered</span><a href="{{url('user/detail')}}" class="text-decoration-none mx-3">View Details</a>
                                         </a>
                                     </td>
                                   </tr>
                                   
                                 </tbody>
                               </table>
-                        </div>
-
-                        <div class="my-3">
-                            <nav>
-                                <ul class="pagination justify-content-center">
-                                  <li class="page-item">
-                                    <a class="page-link" href="#" aria-label="Previous">
-                                      <span aria-hidden="true">&laquo;</span>
-                                    </a>
-                                  </li>
-                                  <li class="page-item"><a class="page-link" href="#">1</a></li>
-                                  <li class="page-item"><a class="page-link" href="#">2</a></li>
-                                  <li class="page-item"><a class="page-link" href="#">3</a></li>
-                                  <li class="page-item">
-                                    <a class="page-link" href="#" aria-label="Next">
-                                      <span aria-hidden="true">&raquo;</span>
-                                    </a>
-                                  </li>
-                                </ul>
-                              </nav>
                         </div>
                     </div>                      
                 </div>

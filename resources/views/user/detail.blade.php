@@ -61,7 +61,7 @@
 
                 <div class="row mt-4">
                     <div class="col-lg-12">
-                        <table class="table">
+                        <table id="datatablesSimple">
                             <thead>
                               <tr>
                                 <th scope="col">Product</th>

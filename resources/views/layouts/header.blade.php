@@ -81,7 +81,7 @@
                   Electronics
                 </a>
                 <ul class="dropdown-menu">
-                  <li class="nav-item"><a class="dropdown-item" href="{{url('/category/subcategory/tv')}}">Drones</a></li>
+                  <li class="nav-item"><a class="dropdown-item" href="{{url('/category/subcategory/tv')}}">Tv</a></li>
                   <li class="nav-item"><a class="dropdown-item" href="#">Radios</a></li>
                   <li class="nav-item"><a class="dropdown-item" href="#">Cameras</a></li>
                  
@@ -115,7 +115,7 @@
                   Appliances
                 </a>
                 <ul class="dropdown-menu">
-                  <li class="nav-item"><a class="dropdown-item" href="#">Washing Machines</a></li>
+                  <li class="nav-item"><a class="dropdown-item" href="{{url('/category/subcategory/tv')}}">Washing Machines</a></li>
                   <li class="nav-item"><a class="dropdown-item" href="#">Refrigerator</a></li>
                   <li class="nav-item"><a class="dropdown-item" href="{{url('/category/subcategory/tv')}}">TV</a></li>
 

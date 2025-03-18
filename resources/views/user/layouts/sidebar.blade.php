@@ -8,11 +8,11 @@
                         Dashboard
                     </a>
                    
-                    <a class="nav-link" href="{{url('/order-history')}}">
+                    <a class="nav-link" href="{{url('/user/order-history')}}">
                         <div class="sb-nav-link-icon"><i class="fa-regular fa-clock"></i></div>
                         Order History
                     </a>
-                    <a class="nav-link" href="{{url('/settings')}}">
+                    <a class="nav-link" href="{{url('/user/settings')}}">
                         <div class="sb-nav-link-icon"><i class="fa-solid fa-gear"></i></div>
                       Settings
                     </a>
