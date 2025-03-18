@@ -12,26 +12,36 @@
                 <h1 class="my-4">Dashboard</h1>  
 
                 <div class="row">
-                    <div class="col-xl-6 col-md-6">
-                        <div class="card bg-info text-white mb-4">
+                    <div class="col-xl-4 col-md-6">
+                        <div class="card bg-primary text-white mb-4">
                             <div class="card-body mx-auto">
-                                <img class="img-fluid" src="{{asset('assets/images/user/user.png')}}" style="width:200px" alt="">
+                                <h4>Total Orders</h4>
                             </div>
-                            <div class="my-3">
-                                <h5 class="text-center text-dark">Vendor Name</h5>
+                            <div class="my-2">
+                                <h5 class="text-center text-dark">22</h5>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-xl-6 col-md-6">
-                        <div class="card bg-info text-white mb-4" style="height:300px">
+                    <div class="col-xl-4 col-md-6">
+                        <div class="card bg-warning text-white mb-4">
                             <div class="card-body mx-auto">
-                                <h5 class="text-dark text-center mb-3">Billing Address</h5>
-                                <span class="text-dark">Reference site about Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima dicta illum animi amet, itaque ipsa rerum facere. </span><br><br>
-                                <span class="text-dark"><strong>Email: bhim.lamichhane@intuji.com </strong></span><br>
-                                <span class="text-dark"><strong>Phone: +977-9814495185</strong></span><br>
+                                <h4>Total Sales</h4>
                             </div>
-                            
+                            <div class="my-2">
+                                <h5 class="text-center text-dark">RS 20,000.00</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-4 col-md-6">
+                        <div class="card bg-danger text-white mb-4">
+                            <div class="card-body mx-auto">
+                                <h4>Pending Orders</h4>
+                            </div>
+                            <div class="my-2">
+                                <h5 class="text-center text-dark">5</h5>
+                            </div>
                         </div>
                     </div>
                                             
@@ -68,7 +78,7 @@
                           <td>2024-12-12</td>
                           <td>Rs 50000.00</td>
                           <td>
-                              <a href=""><span class="badge text-bg-primary ">Processing</span><a href="{{url('/detail')}}" class="text-decoration-none mx-3">View Details</a>
+                              <a href=""><span class="badge text-bg-primary ">Processing</span><a href="{{url('vendor/orderdetail')}}" class="text-decoration-none mx-3">View Details</a>
                               </a>
                           </td>
                         </tr>
@@ -78,7 +88,7 @@
                           <td>2024-12-12</td>
                           <td>Rs 50000.00</td>
                           <td>
-                              <a href=""><span class="badge text-bg-info ">On the Way</span><a href="{{url('/detail')}}" class="text-decoration-none mx-3">View Details</a>
+                              <a href=""><span class="badge text-bg-info ">On the Way</span><a href="{{url('vendor/orderdetail')}}" class="text-decoration-none mx-3">View Details</a>
                               </a>
                           </td>
                         </tr>
@@ -88,7 +98,7 @@
                           <td>2024-12-12</td>
                           <td>Rs 50000.00</td>
                           <td>
-                              <a href=""><span class="badge text-bg-success ">Delivered</span><a href="{{url('/detail')}}" class="text-decoration-none mx-3">View Details</a>
+                              <a href=""><span class="badge text-bg-success ">Delivered</span><a href="{{url('vendor/orderdetail')}}" class="text-decoration-none mx-3">View Details</a>
                               </a>
                           </td>
                         </tr>
