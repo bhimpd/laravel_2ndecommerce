@@ -9,6 +9,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ProductdetailController;
 use App\Http\Controllers\UserController;
+use App\Http\Controllers\VendorController;
 
 // Route::get('/', function () {
 //     return view('welcome');
@@ -30,10 +31,13 @@ Route::get('/login1',[UserController::class,'login1']);
 
 // User dashboard routes start here
 Route::get('/user',[UserController::class,'index']);
-
 Route::get('/user/order-history',[UserController::class,'history']);
 Route::get('/user/detail',[UserController::class,'detail']);
 Route::get('/user/settings',[UserController::class,'settings']);
+
+
+// Vendor dashboard routes start here
+Route::get('/vendor/signup',[VendorController::class,'signup']);
 
 
 
