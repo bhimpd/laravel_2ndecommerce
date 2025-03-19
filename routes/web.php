@@ -42,6 +42,10 @@ Route::get('/vendor/login',[VendorController::class,'login']);
 Route::get('/vendor/forget',[VendorController::class,'forget']);
 Route::get('/vendor/index',[VendorController::class,'index']);
 Route::get('/vendor/addproduct',[VendorController::class,'addproduct']);
+Route::get('/vendor/viewproduct',[VendorController::class,'viewproduct']);
+Route::get('/vendor/editproduct',[VendorController::class,'editproduct']);
+
+
 
 
 

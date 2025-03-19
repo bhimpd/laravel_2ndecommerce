@@ -25,4 +25,13 @@ class VendorController extends Controller
     public function addproduct(){
         return view('vendor.addproduct');
     }
+
+    public function viewproduct(){
+        return view('vendor.viewproduct');
+    }
+
+    public function editproduct(){
+        return view('vendor.editproduct');
+    }
+
 }

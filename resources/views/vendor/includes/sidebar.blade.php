@@ -13,10 +13,11 @@
                         Products
                         <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
                     </a>
+                    
                     <div class="collapse" id="collapseLayouts" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
                         <nav class="sb-sidenav-menu-nested nav">
-                            <a class="nav-link" href="{{url('/vendor/addproduct')}}">Add Products</a>
-                            <a class="nav-link" href="{{url('/vendor/viewproducts')}}">View Products</a>
+                            <a class="nav-link" href="{{url('/vendor/addproduct')}}">Add Product</a>
+                            <a class="nav-link" href="{{url('/vendor/viewproduct')}}">View Product</a>
                         </nav>
                     </div>
 
