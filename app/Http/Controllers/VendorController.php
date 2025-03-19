@@ -38,4 +38,7 @@ class VendorController extends Controller
         return view('vendor.orders');
     }
 
+    public function orderdetail(){
+        return view('vendor.orderdetail');
+    }
 }

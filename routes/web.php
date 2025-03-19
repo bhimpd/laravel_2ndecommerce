@@ -45,6 +45,8 @@ Route::get('/vendor/addproduct',[VendorController::class,'addproduct']);
 Route::get('/vendor/viewproduct',[VendorController::class,'viewproduct']);
 Route::get('/vendor/editproduct',[VendorController::class,'editproduct']);
 Route::get('/vendor/orders',[VendorController::class,'orders']);
+Route::get('/vendor/orderdetail',[VendorController::class,'orderdetail']);
+
 
 
 
