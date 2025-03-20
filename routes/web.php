@@ -47,6 +47,7 @@ Route::get('/vendor/editproduct',[VendorController::class,'editproduct']);
 Route::get('/vendor/orders',[VendorController::class,'orders']);
 Route::get('/vendor/orderdetail',[VendorController::class,'orderdetail']);
 Route::get('/vendor/users',[VendorController::class,'users']);
+Route::get('/vendor/profile',[VendorController::class,'profile']);
 
 
 
