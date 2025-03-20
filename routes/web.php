@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AdminController;
 use App\Http\Controllers\CartController;
 use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\CheckoutController;
@@ -48,6 +49,30 @@ Route::get('/vendor/orders',[VendorController::class,'orders']);
 Route::get('/vendor/orderdetail',[VendorController::class,'orderdetail']);
 Route::get('/vendor/users',[VendorController::class,'users']);
 Route::get('/vendor/profile',[VendorController::class,'profile']);
+
+
+
+// Admin dashboard routes start here
+Route::get('/admin/login',[AdminController::class,'login']);
+Route::get('/admin/index',[AdminController::class,'index']);
+Route::get('/admin/addproduct',[AdminController::class,'addproduct']);
+Route::get('/admin/viewproduct',[AdminController::class,'viewproduct']);
+Route::get('/admin/editproduct',[AdminController::class,'editproduct']);
+Route::get('/admin/orders',[AdminController::class,'orders']);
+Route::get('/admin/orderdetail',[AdminController::class,'orderdetail']);
+Route::get('/admin/users',[AdminController::class,'users']);
+Route::get('/admin/profile',[AdminController::class,'profile']);
+Route::get('/admin/addcategory',[AdminController::class,'addcategory']);
+Route::get('/admin/viewcategory',[AdminController::class,'viewcategory']);
+Route::get('/admin/editcategory',[AdminController::class,'editcategory']);
+Route::get('/admin/vendors',[AdminController::class,'vendors']);
+Route::get('/admin/products',[AdminController::class,'products']);
+
+
+
+
+
+
 
 
 
